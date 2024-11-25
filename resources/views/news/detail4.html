@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Berita 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f1f3f8;
+            font-family: 'Roboto', sans-serif;
+        }
+        .article-title {
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #007bff, #5a9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .article-content {
+            color: #4a4a4a;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .article-content:hover {
+            transform: translateY(-5px);
+        }
+        .img-fluid {
+            border-radius: 15px;
+            margin-bottom: 25px;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .img-fluid:hover {
+            transform: scale(1.05);
+        }
+        .back-button {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            .article-title {
+                font-size: 1.8rem;
+            }
+            .article-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="article-title">Judul Berita 4</h1>
+    <img src="https://akcdn.detik.net.id/community/media/visual/2024/10/20/prabowo-gibran-disambut-meriah-warga-di-benhil-jakarta.jpeg?w=700&q=90" class="img-fluid" alt="Gambar Berita 1">
+    
+    <div class="article-content">
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+        </p>
+        <p>
+            Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+        </p>
+        <p>
+            Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC...
+        </p>
+        <p>
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested...
+        </p>
+        <p>
+            Where can I get some? There are many variations of passages of Lorem Ipsum available...
+        </p>
+    </div>
+    
+    <a href="/dashboard" class="btn back-button">Kembali ke Beranda</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
